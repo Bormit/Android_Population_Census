@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "970172455327",
+    "project_id": "population-census-d9478",
+    "storage_bucket": "population-census-d9478.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970172455327:android:a21095b137123f066d05aa",
+        "android_client_info": {
+          "package_name": "ru.mirea.populationcensus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970172455327-7qd9n2281345mc24gkfilmps19secbk6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.mirea.populationcensus",
+            "certificate_hash": "b125831fa62be79ac98bcb6e33a4d3179e37e329"
+          }
+        },
+        {
+          "client_id": "970172455327-7t3ieafngpda1dec5ec18mo15stsk58r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaOVGOmY7UxVZ8bq2jXYx8iSOqEXPPMKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970172455327-7t3ieafngpda1dec5ec18mo15stsk58r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

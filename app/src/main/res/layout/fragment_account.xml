@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Account">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/avatar"
+        app:srcCompat="@drawable/avatar" />
+
+    <TextView
+        android:id="@+id/User_name"
+        android:layout_width="300dp"
+        android:layout_marginTop="230dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/admin_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/input_design"
+        android:padding="15dp"
+        android:text="Админ панель"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:backgroundTint="#009688" />
+
+    <Button
+        android:id="@+id/exit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/input_design"
+        android:padding="15dp"
+        android:text="Выйти"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:backgroundTint="#009688" />
+
+
+</RelativeLayout>

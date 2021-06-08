@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Контакты"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        />
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="Контактный телефон: 7(001)800-55-35"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:text="Адрес: проспект Вернадского, 78с4"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:textColor="@android:color/black"
+        />
+
+</RelativeLayout>
